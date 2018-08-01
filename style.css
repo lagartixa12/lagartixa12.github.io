@@ -1,7 +1,7 @@
 @charset "utf-8";   /* */
 @font-face {
 	font-family: 'espeluncaf';
-	src: url("../_fonts/fontesite.ttf");
+	src: url("fontesite.ttf");
 }
     /* Formatação geral básica*/
     body {
