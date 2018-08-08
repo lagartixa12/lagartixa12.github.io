@@ -1,0 +1,134 @@
+@charset "utf-8";   /* */
+@font-face {
+	font-family: 'espeluncaf';
+	src: url('fontesite.ttf');
+}
+    /* Formatação geral básica*/
+body {
+    font-family: sans-serif;
+    font-size: 12pt;
+    background-color: #15002a;
+    background-size: 100%;
+    text-align: justify;
+  }
+
+
+p {
+  	text-indent: 30px;
+  }
+
+    /*FORMATAÇÃO DO MENU PRINCIPAL*/
+nav#menu-principal {
+    display: block;
+  }
+
+nav#menu-principal h1{
+    display: none;
+  }
+
+nav#menu-principal ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: 410px;
+  }
+
+nav#menu-principal li {
+    border-radius: 8px;
+    display: inline-block;
+    background-color: #ffffff;
+    padding: 6px 12px 6px 12px;
+    margin: 0 8px 0 8px;
+    box-shadow: -3px 3px 6px black;
+    transition: 0.1s;
+  }
+
+nav#menu-principal li:hover {
+		border-radius:1px;
+		background-color: purple;
+  }
+
+nav#menu-principal a {
+		width: 100%;
+		height: 100%;
+		position: relative;
+		font-size: 18px;
+		letter-spacing: 2px;
+		color: blue;
+		text-shadow: 1px 1px 1px black;
+		text-decoration: none;
+		border-radius: 1px;
+		transition: .2s;
+		top: 2px;
+	}
+
+nav#menu-principal a:hover {
+		color: white;
+		font-size: 18px;
+  }
+
+	    /*CONFIGURAÇAO DO CABEÇALHO*/
+
+header#cabecalho {
+		border: 1px solid black;
+		box-shadow: 4px 4px 15px black;
+		background-color: blue;
+		color: white;
+		margin-left: 12px;
+		margin-right: 12px;
+		margin-top: -20px;
+		padding-left: 20px;
+	}
+
+	header#cabecalho h1 {
+		position: relative;
+		top: -20px;
+		left: 20px;
+		letter-spacing: 6px;
+		font-size: 60px;
+		font-family: espeluncaf;
+		text-shadow: 2px 2px 2px black;
+		padding: 0px;
+		margin-bottom: 0px;
+	}
+
+	header#cabecalho h2.subtitulo-logo {
+		position: relative;
+		top: -25px;
+		left: 160px;
+		margin-top: -10px;
+	}
+
+	header#cabecalho h3 {
+		font-size: 18px;
+	}
+
+		/*Formatação da Interface*/
+
+    div#interface {
+    	 background-color: rgb(255, 255, 255);
+     	 color: black;
+       margin: 20px 20px 100px 20px;
+       width: 700px;
+       height: 600px;
+	     height: 100%;
+       box-shadow: 3px 3px 32px black;
+       padding: 18px;
+       border: 1px solid black;
+
+  }
+
+	h1.paunogato {
+			font-size: 20px;
+		}
+
+		.aviso-rodape {
+			color: red;
+	}
+
+		/*FIM#DO#DOCUMENTO%%%FIM
+			#DO
+	   	#DOCUMENTO%
+						%
+		 					%FIM#DO#DOCUMENTO%%%*/
